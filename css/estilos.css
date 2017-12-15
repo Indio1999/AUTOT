@@ -1,0 +1,279 @@
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nosotros{
+    box-sizing: border-box;
+    padding: 20px;
+}
+#servicios{
+    background-image: url("../img/imginicio/hero-london.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 1%;
+}
+#contactenos{
+    background-image: url("../img/imginicio/news-background-even.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.acordeon input{
+    display: none;
+}
+.acordeon__titulo{
+    display: block;
+    padding: 15px;
+    background: #ed4a25;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.acordeon__titulo:hover{
+    background: rgba(237, 74, 37, 0.8);
+}
+.acordeon__contenido{
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: all 1s;
+}
+.acordeon input:checked ~ .acordeon__contenido{
+    height: auto;
+    margin: 15px 0;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicios{
+    border-radius: 100%;
+    border: 5px solid orange;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 2px;
+}
+.servicios:hover{
+    background: orange;
+}
+.parrafo{
+    box-sizing: border-box;
+    padding: 10px;
+    color: #fff;
+}
+.parrafo1{
+    box-sizing: border-box;
+    padding: 10px;
+    color: #000;
+}
+.carousel{
+    width: 100vw;
+}
+.carousel .item {
+    width: 100%;
+}
+.carousel .item img {
+    width: 100%; 
+}
+/*.facon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid orange;
+}*/
+.row-padding{
+    box-sizing: border-box;
+    padding: 5.5%;
+}
+.titulo{
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 3%;
+    padding-left: 0;
+}
+/*=========================
+  Icons
+ ================= */
+footer{
+    background: #101010;
+    /*box-sizing: border-box;
+    padding: 3%;*/
+}
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+    box-sizing: border-box;
+    padding: 6px;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoGmail:hover {
+	/*background-color:#3B5998;*/
+    background-color: #ff4343;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007BB6;
+}
+
+.social-network a.icoIn:hover {
+	background-color:#0077b5;
+}
+
+.social-network a.icoYoutube:hover {
+	background-color:#ff0000;
+}
+.social-network a.icoWhat:hover {
+	background-color:#25d366;
+}
+
+.social-network a.icoRss:hover i, .social-network a.icoGmail:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i,
+.social-network a.icoInstagram:hover i, .social-network a.icoYoutube:hover i, .social-network a.icoWhat:hover{
+	color:#fff;
+}
+/*a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}*/
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+    border: 2px solid #fff;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+/*.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}*/
+.social-circle i {
+	color: #fff;
+	/*-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;*/
+}
+
+
+
+/*
+=======Modal del Login=======
+*/
+#contenido{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    z-index: 16;
+    position: fixed;
+    box-sizing: border-box;
+    padding: 10%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+}
+#cerrar{
+    cursor: pointer;
+    color: #fff;
+    margin-right: 13px;
+}
+
+/*fieldset {
+  padding: .35em .625em .75em;
+  margin: 0 2px;
+  border: 1px solid #c0c0c0;
+}
+legend {
+  padding: 0;
+  border: 0;
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}*/
+fieldset {
+  padding: .35em .625em .75em;
+  margin: 0 2px;
+  border: 1px solid #fff;
+}
+legend {
+  padding: 10;
+  margin-bottom: 10px;
+  font-size: 21px;
+  color: #fff;
+}
+
+
+
+
+
+
