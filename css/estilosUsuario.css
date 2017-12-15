@@ -74,9 +74,6 @@
     background: orange;
     cursor: pointer;
 }
-.servicios:hover #gestionAmb{
-    background: aqua;
-}
 
 .parrafo {
     box-sizing: border-box;
