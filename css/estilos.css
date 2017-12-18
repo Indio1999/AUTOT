@@ -22,25 +22,42 @@
     background-position: top;
     background-size: cover;
 }
+.carousel-caption{
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	left: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+}
+.carousel-indicators{
+	margin-bottom: 0 !important;
+}
 .acordeon input{
     display: none;
 }
 .acordeon__titulo{
     display: block;
     padding: 15px;
-    background: aqua;
+    background: rgb(65,65,65);
     color: white;
     font-size: 20px;
     cursor: pointer;
 }
 .acordeon__titulo:hover{
-    background: rgba(237, 74, 37, 0.8);
+    background: rgb(237, 74, 37);
 }
 .acordeon__contenido{
     height: 0;
     overflow: hidden;
     margin: 0;
     transition: all 1s;
+}
+.acordeon input:hover ~ .acordeon__contenido{
+    height: auto;
+    margin: 15px 0;
+}
+.acordeon input:checked ~ .acordeon__titulo{
+    background: rgb(237, 74, 37);
 }
 .acordeon input:checked ~ .acordeon__contenido{
     height: auto;
@@ -83,7 +100,7 @@
     width: 100%;
 }
 .carousel .item img {
-    width: 100%; 
+    width: 100%;
 }
 /*.facon{
     display: flex;
