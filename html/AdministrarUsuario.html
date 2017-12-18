@@ -119,68 +119,91 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" id="usuarios"  style="border-top: 1px solid #000; box-sizing: border-box; padding: 20px">
-        <div class="table-responsive">
-            <table class="table table-bordered table-hover">
-                <tr class="active">
-                    <th>Tipo documento</th>
-                    <th>Número documento</th>
-                    <th>Nombres</th>
-                    <th>Apellidos</th>
-                    <th>Rol</th>
-                    <th>Fecha nacimiento</th>
-                    <th>Correo electrónico</th>
-                    <th>Teléfono</th>
-                    <th>Contraseña</th>
-                    <th>Estado usuario</th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td>C.C</td>
-                    <td>1152224624</td>
-                    <td>Jose Manuel</td>
-                    <td>Rodriguez Angulo</td>
-                    <td>Administrador</td>
-                    <td>18/04/1999</td>
-                    <td>jmrodriguez160@misena.edu.co</td>
-                    <td>4911431</td>
-                    <td>J0S3j0s3</td>
-                    <td>Activo</td>
-                    <td><button class="btn btn-warning">Editar</button></td>
-                    <td><button class="btn btn-danger">Eliminar</button></td>
-                </tr>
-                <tr>
-                    <td>C.C</td>
-                    <td>1152224624</td>
-                    <td>Jose Manuel</td>
-                    <td>Rodriguez Angulo</td>
-                    <td>Administrador</td>
-                    <td>18/04/1999</td>
-                    <td>jmrodriguez160@misena.edu.co</td>
-                    <td>4911431</td>
-                    <td>J0S3j0s3</td>
-                    <td>Activo</td>
-                    <td><button class="btn btn-warning">Editar</button></td>
-                    <td><button class="btn btn-danger">Eliminar</button></td>
-                </tr>
-                <tr>
-                    <td>C.C</td>
-                    <td>1152224624</td>
-                    <td>Jose Manuel</td>
-                    <td>Rodriguez Angulo</td>
-                    <td>Administrador</td>
-                    <td>18/04/1999</td>
-                    <td>jmrodriguez160@misena.edu.co</td>
-                    <td>4911431</td>
-                    <td>J0S3j0s3</td>
-                    <td>Activo</td>
-                    <td><button class="btn btn-warning">Editar</button></td>
-                    <td><button class="btn btn-danger">Eliminar</button></td>
-                </tr>
-            </table>
+    <div class="container-fluid" id="usuarios" style="border-top: 1px solid #000; box-sizing: border-box; padding: 20px">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h2 style="text-align: center">Listar usuarios</h2>
+            <button type="button" class="btn btn-info center-block" data-toggle="modal" data-target="#myModal">Listar</button>
+            </div>
         </div>
     </div>
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-tittle">Listado de usuarios</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <tr class="active">
+                                <th>Tipo documento</th>
+                                <th>Número documento</th>
+                                <th>Nombres</th>
+                                <th>Apellidos</th>
+                                <th>Rol</th>
+                                <th>Fecha nacimiento</th>
+                                <th>Correo electrónico</th>
+                                <th>Teléfono</th>
+                                <th>Contraseña</th>
+                                <th>Estado usuario</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>C.C</td>
+                                <td>1152224624</td>
+                                <td>Jose Manuel</td>
+                                <td>Rodriguez Angulo</td>
+                                <td>Administrador</td>
+                                <td>18/04/1999</td>
+                                <td>jmrodriguez160@misena.edu.co</td>
+                                <td>4911431</td>
+                                <td>J0S3j0s3</td>
+                                <td>Activo</td>
+                                <td><button class="btn btn-warning">Editar</button></td>
+                                <td><button class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                            <tr>
+                                <td>C.C</td>
+                                <td>1152224624</td>
+                                <td>Jose Manuel</td>
+                                <td>Rodriguez Angulo</td>
+                                <td>Administrador</td>
+                                <td>18/04/1999</td>
+                                <td>jmrodriguez160@misena.edu.co</td>
+                                <td>4911431</td>
+                                <td>J0S3j0s3</td>
+                                <td>Activo</td>
+                                <td><button class="btn btn-warning">Editar</button></td>
+                                <td><button class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                            <tr>
+                                <td>C.C</td>
+                                <td>1152224624</td>
+                                <td>Jose Manuel</td>
+                                <td>Rodriguez Angulo</td>
+                                <td>Administrador</td>
+                                <td>18/04/1999</td>
+                                <td>jmrodriguez160@misena.edu.co</td>
+                                <td>4911431</td>
+                                <td>J0S3j0s3</td>
+                                <td>Activo</td>
+                                <td><button class="btn btn-warning">Editar</button></td>
+                                <td><button class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <div class="container-fluid">
             <div class="col-md-6">
