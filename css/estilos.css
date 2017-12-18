@@ -28,7 +28,7 @@
 .acordeon__titulo{
     display: block;
     padding: 15px;
-    background: #ed4a25;
+    background: aqua;
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -271,9 +271,3 @@ legend {
   font-size: 21px;
   color: #fff;
 }
-
-
-
-
-
-
