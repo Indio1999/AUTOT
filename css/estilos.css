@@ -1,7 +1,3 @@
-*{
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
 .contenedor{
     width: 100%;
     display: flex;
